@@ -261,6 +261,7 @@
             if(btn && menu) {
                 btn.addEventListener('click', () => {
                     menu.classList.toggle('hidden');
+                    document.body.classList.toggle('overflow-hidden');
                 });
             }
         });
