@@ -61,24 +61,29 @@
                 <a href="alternatives" class="hover:text-brand-main transition">Alternatives</a>
                 <a href="index.html#faq" class="hover:text-brand-main transition">FAQs</a>
             </nav>
-                                    <div class="flex items-center gap-3">
-                <a href="download" class="bg-brand-main text-brand-black px-3 py-1.5 rounded-md font-bold hover:bg-brand-dark transition shadow-md text-sm whitespace-nowrap">
+                                                <div class="flex items-center gap-3">
+                <a href="download" class="hidden sm:inline-flex bg-brand-main text-brand-black px-5 py-2 rounded-lg font-bold hover:bg-brand-dark transition shadow-lg shadow-brand-main/20 text-sm">
                     Download APK
                 </a>
-                <button id="mobile-menu-btn" aria-label="Toggle Menu" class="lg:hidden text-gray-300 hover:text-white focus:outline-none p-1 border border-gray-600 rounded bg-gray-800">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                <button id="mobile-menu-btn" aria-label="Toggle Menu" class="lg:hidden text-gray-300 hover:text-white focus:outline-none p-1.5 bg-gray-800 hover:bg-gray-700 rounded-lg border border-gray-600 transition shadow-sm">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                 </button>
             </div>
         </div>
         <!-- Mobile Menu Overlay -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-gray-900 absolute w-full left-0 top-[4rem] shadow-2xl border-b border-gray-700 transform transition-transform origin-top">
-            <nav class="flex flex-col px-4 pt-4 pb-6 space-y-2 font-semibold text-base border-t border-gray-800">
-                <a href="/" class="block px-4 py-3 text-gray-200 rounded-lg hover:bg-gray-800 hover:text-brand-main transition">Home</a>
-                <a href="pc" class="block px-4 py-3 text-gray-200 rounded-lg hover:bg-gray-800 hover:text-brand-main transition">For PC</a>
-                <a href="smart-tv" class="block px-4 py-3 text-gray-200 rounded-lg hover:bg-gray-800 hover:text-brand-main transition">For Smart TV</a>
-                <a href="old-versions" class="block px-4 py-3 text-gray-200 rounded-lg hover:bg-gray-800 hover:text-brand-main transition">Old Versions</a>
-                <a href="alternatives" class="block px-4 py-3 text-gray-200 rounded-lg hover:bg-gray-800 hover:text-brand-main transition">Alternatives</a>
-                <a href="/#faq" class="block px-4 py-3 text-gray-200 rounded-lg hover:bg-gray-800 hover:text-brand-main transition">FAQs</a>
+        <div id="mobile-menu" class="hidden lg:hidden bg-[#0f172a] absolute w-full left-0 top-[4rem] shadow-2xl border-b border-gray-700">
+            <nav class="flex flex-col px-5 pt-6 pb-8 space-y-3 font-semibold text-lg border-t border-gray-800">
+                <!-- Massive Mobile Download Button -->
+                <a href="download" class="flex items-center justify-center gap-2 w-full bg-brand-main text-brand-black px-4 py-4 rounded-xl font-black text-xl shadow-[0_0_20px_rgba(234,179,8,0.4)] mb-4 active:scale-95 transition-transform">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                    Download PikaShow APK
+                </a>
+                <a href="/" class="block px-4 py-3 text-gray-300 rounded-xl hover:bg-gray-800 hover:text-brand-main transition">Home</a>
+                <a href="pc" class="block px-4 py-3 text-gray-300 rounded-xl hover:bg-gray-800 hover:text-brand-main transition">For PC</a>
+                <a href="smart-tv" class="block px-4 py-3 text-gray-300 rounded-xl hover:bg-gray-800 hover:text-brand-main transition">For Smart TV</a>
+                <a href="old-versions" class="block px-4 py-3 text-gray-300 rounded-xl hover:bg-gray-800 hover:text-brand-main transition">Old Versions</a>
+                <a href="alternatives" class="block px-4 py-3 text-gray-300 rounded-xl hover:bg-gray-800 hover:text-brand-main transition">Alternatives</a>
+                <a href="/#faq" class="block px-4 py-3 text-gray-300 rounded-xl hover:bg-gray-800 hover:text-brand-main transition">FAQs</a>
             </nav>
         </div>
     </header>
